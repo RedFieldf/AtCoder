@@ -1,7 +1,7 @@
-A, B = map(int, input().split())
+H, A = map(int, input().split())
 
-if A % B <= 0 :
-    print(A//B)
+if H % A <= 0 :
+    print(H//A)
 
 else :
-    print(A//B + 1)
+    print(H//A + 1)
